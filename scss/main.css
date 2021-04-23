@@ -176,7 +176,7 @@ body {
 }
 
 body#bg-img {
-  background: url(../img/background.jpg);
+  background: url(../img/bgg.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -437,7 +437,7 @@ main#home h1 {
             transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../dirkkk.jpg");
+    background: url("");
     width: 150px;
     height: 150px;
   }
