@@ -1,3 +1,3 @@
 # Dirk
  
-My Prtfolio (Testing Scss futures )
+My Portfolio (Testing Scss futures )
