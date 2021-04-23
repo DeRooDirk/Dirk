@@ -40,3 +40,4 @@ $(".full-landing-image").ripples(
 )
 new WOW().init();
 
+

@@ -81,8 +81,9 @@
 .menu-branding .portrait  {
   width: 350px;
   height: 350px;
-  background: url("../dirkkk.jpg");
-  background-position: 40% 15%;
+  background: url("../img/169617759_6097958316896873_5079691213410500687_n.jpg");
+  background-position: center center;
+  background-size: cover;
   border-radius: 10%;
   border: solid 3px rgb(75, 238, 26);
 }
@@ -134,6 +135,11 @@
 }
 
 * {
+  touch-action: manipulation;
+}
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -144,6 +150,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  position: relative;
 }
 
 body#bg-img {
@@ -254,8 +261,8 @@ main#home h1 {
   width: 305px;
   grid-area: bioimage;
   background-image: url(../img/169617759_6097958316896873_5079691213410500687_n.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position: center center;
+  background-size: contain;
   margin: auto;
   border-radius: 9%;
   box-sizing: border-box;
@@ -410,7 +417,7 @@ main#home h1 {
 
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #5dee1a;
+  background: #15DF69;
   color: #000;
 }
 
@@ -496,13 +503,10 @@ main#home h1 {
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0);
+   
   }
 
-  .menu-branding .portrait {
-    background: url("../img/169617759_6097958316896873_5079691213410500687_n.jpg");
-    width: 150px;
-    height: 150px;
-  }
+
 
   .about-info {
     grid-template-areas: 'bioimage''bio''job1''job2''job3';
@@ -597,3 +601,6 @@ main#home h1 {
     opacity: 1;
   }
 }
+
+
+
