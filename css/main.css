@@ -253,6 +253,9 @@ main#home h1 {
   height:301px;
   width: 305px;
   grid-area: bioimage;
+  background-image: url(../img/169617759_6097958316896873_5079691213410500687_n.jpg);
+  background-position: center;
+  background-size: cover;
   margin: auto;
   border-radius: 9%;
   box-sizing: border-box;
@@ -496,7 +499,7 @@ main#home h1 {
   }
 
   .menu-branding .portrait {
-    background: url("");
+    background: url("../img/169617759_6097958316896873_5079691213410500687_n.jpg");
     width: 150px;
     height: 150px;
   }
